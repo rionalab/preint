@@ -3,7 +3,7 @@ models:
     data:
       [
         { status: HTTPStatusCode, title: "Title 1" },
-        { status: HTTPStatusCode, title: "Title 2" },
+        { status: HTTPStatusCode, title: "Title 22" },
       ]
   Comment:
     belongsTo: [Post]
