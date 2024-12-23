@@ -10,6 +10,10 @@ models:
       isDraft: { bool: 20 }
       views: { int: [0, 1000] }
       createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+  Willfail:
+    data: { "status": 500, "message": "Berhasil", "data": { "score": 100 } }
+  Willsuccess:
+    data: { "status": 200, "message": "Berhasil", "data": { "score": 100 } }
   Comment:
     belongsTo: [Post]
     fake:
