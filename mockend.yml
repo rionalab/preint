@@ -2,7 +2,7 @@ models:
   Post:
     data:
       [
-        { status: HTTPStatusCode, title: "Title 1" },
+        { status: 500, title: "Title 1" },
         { status: HTTPStatusCode, title: "Title 22" },
       ]
   Comment:
