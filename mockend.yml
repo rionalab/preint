@@ -1,7 +1,10 @@
 models:
   Post:
     data:
-      [{ status: 500, title: "Title 111" }, { status: 200, title: "Title 222" }]
+      [
+        { status: 500, title: "Title 1111" },
+        { status: 200, title: "Title 2222" },
+      ]
   Comment:
     belongsTo: [Post]
     fake:
