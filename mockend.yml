@@ -4,7 +4,7 @@ models:
       [
 	{ status: 500, title: "Title 11" },
 	{ status: 200, title: "Title 22" },
-	{ status: 404, title: "Title 22" },      
+	{ status: 404, title: "Title 222" },      
 	]
   Comment:
     belongsTo: [Post]
