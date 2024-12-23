@@ -1,6 +1,10 @@
 models:
   Post:
-    data: [{ title: "Title 1" }, { title: "Title 2" }]
+    data:
+      [
+        { status: HTTPStatusCode, title: "Title 1", status },
+        { status: HTTPStatusCode, title: "Title 2" },
+      ]
   Comment:
     belongsTo: [Post]
     fake:
