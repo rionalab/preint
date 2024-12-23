@@ -2,8 +2,8 @@ models:
   Post:
     data:
       [
-        { status: 500, title: "Title 111", data: { "score": 10 } },
-        { status: 200, title: "Title 222", data: { "score": 50 } },
+        { status: 500, title: "Title 111", data: { score: 10 } },
+        { status: 200, title: "Title 222", data: { score: 50 } },
       ]
   Comment:
     belongsTo: [Post]
