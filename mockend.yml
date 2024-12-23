@@ -11,9 +11,13 @@ models:
       views: { int: [0, 1000] }
       createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
   Willfail:
-    data: { "status": 500, "message": "Berhasil", "data": { "score": 100 } }
+    fake:
+      status: 500
+      message: "success"
   Willsuccess:
-    data: { "status": 200, "message": "Berhasil", "data": { "score": 100 } }
+    fake:
+      status: 200
+      message: "success"
   Comment:
     belongsTo: [Post]
     fake:
