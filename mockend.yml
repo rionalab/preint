@@ -15,9 +15,8 @@ models:
       status: "500"
       message: "success"
   Willsuccess:
-    fake: { 
-      status: 200
-      message: "success"
+    fake: {
+	    name: "asd"
     }
   Comment:
     belongsTo: [Post]
