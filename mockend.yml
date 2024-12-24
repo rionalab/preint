@@ -6,7 +6,8 @@ models:
         { 
 		status: 200, 
 		title: "Title 22", 
-		data: { a: 1 } },
+		data: {},
+	},
         { status: 404, title: "Title 222" },
 	    ]
   Comment:
