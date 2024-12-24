@@ -6,11 +6,12 @@ models:
         { 
 		status: 200, 
 		title: "Title 22", 
-		data: {},
+		data: 2,
 	},
         { status: 404, title: "Title 222" },
 	    ]
   Comment:
+  
     belongsTo: [Post]
     fake:
       _count: 25
